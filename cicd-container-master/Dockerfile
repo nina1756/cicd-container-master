@@ -1,4 +1,4 @@
-FROM 810134835362.dkr.ecr.us-east-1.amazonaws.com/alpine:3.19
+FROM 810134835362.dkr.ecr.us-east-1.amazonaws.com/alpine:latest
 RUN apk add --no-cache nodejs npm
 
 WORKDIR /app
